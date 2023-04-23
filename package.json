@@ -4,7 +4,8 @@
   "description": "Backend cohort for Californium(Nov,2022 - Mar,2023)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "myCommand": "node src/index.js"
   },
   "author": "",
   "license": "ISC",

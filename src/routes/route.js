@@ -12,7 +12,7 @@ router.get('/test-me', function (req, res) {
     helper.getBatchInfo("california",5,5,"Nodejs module system")
     format.trim("     functionup     ")
     format.toLowerCase("HUSTLER")
-    format.toUpperCase("faizalzehrila")
+    format.toUpperCase("faizal")
     mylodash.chunk(["jan","feb","mar","april","may","june","july","aug","sep","oct","nov","dec"],4)
     mylodash.tail([1,3,5,7,9,11,13,15,17,19,21])
     mylodash.union([[12,25,45,89],[12,25,44,77],[12,5,8],[8,13,14],[8,12,44]])
@@ -22,7 +22,7 @@ router.get('/test-me', function (req, res) {
 
 router.get('/welcome', function (req, res) {
     jogger.welcome 
-    res.send('i am going to  kill you')
+    res.send('welcome to my function')
 });
 
 module.exports = router;

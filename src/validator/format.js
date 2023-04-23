@@ -12,7 +12,7 @@ function toLowerCase(str){
 function toUpperCase(str){
     console.log(str.toUpperCase())
 }
-//toUpperCase("faizalzehrila")
+//toUpperCase("faizal")
 
 module.exports.trim=trim
 module.exports.toLowerCase=toLowerCase

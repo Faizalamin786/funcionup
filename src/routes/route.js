@@ -56,7 +56,9 @@ router.get("/basicRoute", commonMW.mid1, commonMW.mid2, commonMW.mid3, commonMW.
 // router.get("/basicRoute3", commonMW.mid2, UserController.basicCode3)
 // router.get("/basicRoute4", commonMW.mid1, commonMW.mid4, UserController.basicCode4)
 
-
+router.get('/hello',function(req,res){
+    res.send('Hello KeTan')
+})
 
 
 module.exports = router;

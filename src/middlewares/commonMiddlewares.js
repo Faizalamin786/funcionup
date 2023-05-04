@@ -6,6 +6,8 @@ const mid1= function ( req, res, next) {
 }
 
 const mid2= function ( req, res, next) {
+
+    // const urlAddress = req.originalUrl
     console.log("Hi I am a middleware named Mid2")
     next()
 }
